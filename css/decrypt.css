@@ -1,0 +1,101 @@
+div.obfuscated {
+    opacity: 0.0;
+    cursor: pointer;
+}
+
+div#main {
+    margin:0 auto;
+    position: absolute;
+    left: 50%;
+}
+
+div#box {
+    position: relative;
+    left: -50%; 
+    border: 1px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div#bottom-box {
+    position: relative;
+    bottom: 10px;
+    width: 200px;
+    text-align: right;  
+}
+
+div#result {
+    position: absolute; 
+    left: 10px; 
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+}
+
+input#encrypted {
+    width: 200px;
+}
+
+input#passphrase {
+    width: 200px;
+}
+
+a#edit {
+    border: 0;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 10pt;
+}
+
+div#table {
+    position: absolute; 
+    left: 0px; 
+    right: 0px;
+    top: 30px;
+    bottom: 0px;
+    overflow: auto;
+}
+
+div#bubble {
+    position: absolute;
+    visibility: hidden;
+    font-family: Arial, Verdana, sans-serif;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+/** Table */
+
+table#detail {
+    border-spacing: 0;
+    font-family: Arial, Verdana, sans-serif;
+    font-size:16px;
+    border-collapse: collapse;
+}
+
+table tr {
+    border: 1px solid black;
+}
+
+table tr td {
+    padding: 5px;
+}
+
+table tr td.key {
+    text-align: right;
+}
+
+table tr td.value {
+    text-align: center;
+    color: LightGray;
+}
+
+table tr td.op {
+    width: 50px;
+}
+
+
